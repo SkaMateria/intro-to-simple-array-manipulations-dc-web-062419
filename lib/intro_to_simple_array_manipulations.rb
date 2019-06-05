@@ -66,4 +66,3 @@ end
 def using_delete(instructors, "Steven")
   no_offense_steven = instructors.delete("Steven)
 end
-
