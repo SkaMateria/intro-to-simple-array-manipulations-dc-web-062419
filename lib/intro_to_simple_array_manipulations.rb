@@ -64,5 +64,5 @@ end
 
 
 def using_delete(instructors, "Steven")
-  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  @instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
 end
