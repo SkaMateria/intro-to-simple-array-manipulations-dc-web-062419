@@ -61,3 +61,11 @@ def using_flatten(private_colleges_in_newyork)
   private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
   flat_array = private_colleges_in_newyork.flatten
 end
+
+
+def using_delete(instructors, "Steven")
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  no_offense_steven = instructors.delete("Steven")
+end
+
+
